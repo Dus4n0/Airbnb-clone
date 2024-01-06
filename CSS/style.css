@@ -31,8 +31,8 @@ html, body {
     padding: 3px;
     border-radius: 50%;
 }
-.menu img {
-    margin-left: 5px;
+.menu {
+    margin-left: 15px;
 }
 .logo-container {
     display: flex;
@@ -52,9 +52,6 @@ html, body {
     80% {
         transform: scale(1.0);
     }
-}
-.user{
-    margin-left: 5px;
 }
 .user img:hover{
     background-color: lightgray;

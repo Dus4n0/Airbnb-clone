@@ -805,14 +805,12 @@
         padding: 3px;
         border-radius: 50%;
     }
-    .menu img {
-        margin-left: 5px;
-    }
     .menu{
-        display: flex;
-        }
+        display: flex
+    }
     .user{
         display: flex;
+        margin-left: 10px;
     }
     .h-Menu{
         display: none;
