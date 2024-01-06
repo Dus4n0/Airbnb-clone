@@ -808,6 +808,12 @@
     .menu img {
         margin-left: 5px;
     }
+    .menu{
+        display: flex;
+        }
+    .user{
+        display: flex;
+    }
     .h-Menu{
         display: none;
     }
@@ -870,6 +876,7 @@
         width: 0;
     }
     .desc{
+        display: flex;
         padding: 10px;
         margin-right: 5px;
         font-size: 18px;
@@ -1116,6 +1123,7 @@
         width: 0;
     }
     .desc{
+        display: flex;
         padding: 10px;
         margin-right: 5px;
         font-size: 18px;
@@ -1233,7 +1241,6 @@
     .foot {
         display: flex;
         justify-content: space-between;
-        text-align: center;
         background-color: rgb(224, 224, 224);
         border-top: 1px solid gray;
         border-right: 0;
@@ -1242,7 +1249,6 @@
         padding: 20px 0;
         color: #fff;
         bottom: 0;
-    
     }
     .firstFoot a:hover{
         border-bottom: 1px solid black;
