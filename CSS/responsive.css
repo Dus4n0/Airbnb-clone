@@ -19,13 +19,13 @@
         width: 20%;
         align-items: center;
     }
-    .menu{
-        margin-left: 10px;
-    }
-    .menu img:hover{
+    .h-Menu img:hover{
         background-color: lightgrey;
         padding: 3px;
         border-radius: 50%;
+    }
+    .h-Menu img{
+        margin-left: -25px;
     }
     .logo-container {
         display: flex;
@@ -45,14 +45,6 @@
         80% {
             transform: scale(1.0);
         }
-    }
-    .user{
-        margin-left: 5px;
-    }
-    .user img:hover{
-        background-color: lightgray;
-        border-radius: 50%;
-        padding: 3px;
     }
     .box-container {
         display: flex;
@@ -95,10 +87,10 @@
     }
     .desc{
         padding: 10px;
-        margin-right: 5px;
         font-size: 18px;
         border: none;
         border-radius: 30px;
+        margin-left: -10px;
     }
     .desc:hover{
         background-color: rgb(239, 243, 243);
@@ -108,6 +100,7 @@
     .sort{
         display: flex;
         justify-content: space-between;
+        justify-content: center;
         width: 100%;
         margin-top: 5px;
     }
@@ -121,6 +114,7 @@
         list-style-type: none;
         padding: 5px 10px;
         color: grey;
+        font-size: 20px;
     }
     .sort a:hover::before{
         content: "";
@@ -134,13 +128,17 @@
     .sort a:hover{
         color: black;
     }
-    
-    .icon-3 img{
-        margin-left: 8px;
+    .icon-1 img{
+        margin-left: 6px;
     }
-    
+    .icon-2 img{
+        margin-left: 5px;
+    }
+    .icon-3 img{
+        margin-left: 15px;
+    }
     .icon-4 img{
-        margin-left: 7px;
+        margin-left: 14px;
     }
     /*CONTAINER*/
     
@@ -150,9 +148,11 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
-    .container img{
+    .container  img{ 
         border-radius: 5%;
+        width: 90%;
     }
     .container a{
         text-decoration: none;
@@ -160,9 +160,6 @@
         font-style: bold;
         font-size: 10px;
         margin-top: 50px;
-    }
-    .container-post-1{
-        width: 20%;
     }
     .container .post-1 h4{
         font-size: 20px;
@@ -176,19 +173,19 @@
         font-size: 20px;
     }
     .container .post-1 p{
-        font-size: 15px;
+        font-size: 25px;
         color: rgb(104, 104, 104);
     }
     .container .post-2 p{
-        font-size: 15px;
+        font-size: 25px;
         color: rgb(104, 104, 104);
     }
     .container .post-3 p{
-        font-size: 15px;
+        font-size: 25px;
         color: rgb(104, 104, 104);
     }
     .container .post-4 p{
-        font-size: 15px;
+        font-size: 25px;
         color: rgb(104, 104, 104);
     }
     .container .post-1 h3{
@@ -204,7 +201,6 @@
         font-size: 19px;
     }
     
-    
     /*FOOTER*/
     
     
@@ -215,12 +211,11 @@
         background-color: rgb(224, 224, 224);
         border-top: 1px solid gray;
         border-right: 0;
-        height: 50px;
+        height: 120px;
         width: 100%; 
         padding: 20px 0;
-        color: #fff;
         bottom: auto;
-    
+        color: #fff;
     }
     .firstFoot a:hover{
         border-bottom: 1px solid black;
@@ -231,7 +226,6 @@
         justify-content: flex-start;
         text-align: center;
         align-items:center;
-        margin-left: 20px;
         color: black;
     }
     .foot a{
@@ -241,7 +235,7 @@
         text-align: center;
         text-decoration: none;
         color:black;
-        margin-left: 15px;
+        font-size: 20px;
     }
     .lastFoot{
         display: flex;
@@ -278,13 +272,13 @@
         width: 20%;
         align-items: center;
     }
-    .menu{
-        margin-left: 10px;
-    }
-    .menu img:hover{
+    .h-Menu img:hover{
         background-color: lightgrey;
         padding: 3px;
         border-radius: 50%;
+    }
+    .h-Menu{
+        margin-left: -10px;
     }
     .logo-container {
         display: flex;
@@ -304,14 +298,6 @@
         80% {
             transform: scale(1.0);
         }
-    }
-    .user{
-        margin-left: 5px;
-    }
-    .user img:hover{
-        background-color: lightgray;
-        border-radius: 50%;
-        padding: 3px;
     }
     .box-container {
         display: flex;
@@ -367,6 +353,7 @@
     .sort{
         display: flex;
         justify-content: space-between;
+        justify-content: center;
         width: 100%;
         margin-top: 5px;
     }
@@ -380,6 +367,7 @@
         list-style-type: none;
         padding: 5px 10px;
         color: grey;
+        font-size: 20px;
     }
     .sort a:hover::before{
         content: "";
@@ -393,13 +381,17 @@
     .sort a:hover{
         color: black;
     }
-    
-    .icon-3 img{
-        margin-left: 8px;
+    .icon-1 img{
+        margin-left: 6px;
     }
-    
+    .icon-2 img{
+        margin-left: 5px;
+    }
+    .icon-3 img{
+        margin-left: 15px;
+    }
     .icon-4 img{
-        margin-left: 7px;
+        margin-left: 14px;
     }
     /*CONTAINER*/
     
@@ -409,10 +401,11 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
     .container img{
         border-radius: 5%;
-        width: 50%;
+        width: 95%;
     }
     .container a{
         text-decoration: none;
@@ -433,19 +426,19 @@
         font-size: 20px;
     }
     .container .post-1 p{
-        font-size: 15px;
+        font-size: 20px;
         color: rgb(104, 104, 104);
     }
     .container .post-2 p{
-        font-size: 15px;
+        font-size: 20px;
         color: rgb(104, 104, 104);
     }
     .container .post-3 p{
-        font-size: 15px;
+        font-size: 20px;
         color: rgb(104, 104, 104);
     }
     .container .post-4 p{
-        font-size: 15px;
+        font-size: 20px;
         color: rgb(104, 104, 104);
     }
     .container .post-1 h3{
@@ -472,7 +465,7 @@
         background-color: rgb(224, 224, 224);
         border-top: 1px solid gray;
         border-right: 0;
-        height: 20px;
+        height: 70px;
         width: 100%; 
         padding: 20px 0;
         color: #fff;
@@ -488,7 +481,7 @@
         justify-content: flex-start;
         text-align: center;
         align-items:center;
-        margin-left: 20px;
+        margin-left: px;
         color: black;
     }
     .foot a{
@@ -498,7 +491,7 @@
         text-align: center;
         text-decoration: none;
         color:black;
-        margin-left: 15px;
+        margin-left: 8px;
     }
     .lastFoot{
         display: flex;
@@ -535,13 +528,13 @@
         width: 20%;
         align-items: center;
     }
-    .menu{
-        margin-left: 10px;
-    }
-    .menu img:hover{
+    .h-Menu img:hover{
         background-color: lightgrey;
         padding: 3px;
         border-radius: 50%;
+    }
+    .h-Menu img{
+        margin-left: 15px;
     }
     .logo-container {
         display: flex;
@@ -637,6 +630,7 @@
         list-style-type: none;
         padding: 5px 10px;
         color: grey;
+        font-size: 15px;
     }
     .sort a:hover::before{
         content: "";
@@ -665,10 +659,11 @@
         padding: 0;
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
     }
     .container img{
         border-radius: 5%;
-        width: 99%;
+        width: 100%;
     }
     .container a{
         padding: 0;
@@ -691,19 +686,19 @@
         font-size: 20px;
     }
     .container .post-1 p{
-        font-size: 15px;
+        font-size: 20px;
         color: rgb(104, 104, 104);
     }
     .container .post-2 p{
-        font-size: 15px;
+        font-size: 20px;
         color: rgb(104, 104, 104);
     }
     .container .post-3 p{
-        font-size: 15px;
+        font-size: 20px;
         color: rgb(104, 104, 104);
     }
     .container .post-4 p{
-        font-size: 15px;
+        font-size: 20px;
         color: rgb(104, 104, 104);
     }
     .container .post-1 h3{
@@ -793,13 +788,13 @@
         width: 20%;
         align-items: center;
     }
-    .menu{
-        margin-left: 10px;
-    }
-    .menu img:hover{
+    .h-Menu img:hover{
         background-color: lightgrey;
         padding: 3px;
         border-radius: 50%;
+    }
+    .h-Menu img{
+        margin-left: 20px;
     }
     .logo-container {
         display: flex;
@@ -819,14 +814,6 @@
         80% {
             transform: scale(1.0);
         }
-    }
-    .user{
-        margin-left: 5px;
-    }
-    .user img:hover{
-        background-color: lightgray;
-        border-radius: 50%;
-        padding: 3px;
     }
     .box-container {
         display: flex;
@@ -923,10 +910,11 @@
         padding: 0;
         display: flex;
         justify-content: center;
+        flex-direction: row;
     }
     .container img{
         border-radius: 5%;
-        width: 99%;
+        width: 100%;
     }
     .container a{
         padding: 0;
@@ -1051,13 +1039,13 @@
         width: 20%;
         align-items: center;
     }
-    .menu{
-        margin-left: 10px;
-    }
-    .menu img:hover{
+    .h-Menu img:hover{
         background-color: lightgrey;
         padding: 3px;
         border-radius: 50%;
+    }
+    .h-Menu img{
+        margin-left: 35px;
     }
     .logo-container {
         display: flex;
@@ -1077,14 +1065,6 @@
         80% {
             transform: scale(1.0);
         }
-    }
-    .user{
-        margin-left: 5px;
-    }
-    .user img:hover{
-        background-color: lightgray;
-        border-radius: 50%;
-        padding: 3px;
     }
     .box-container {
         display: flex;

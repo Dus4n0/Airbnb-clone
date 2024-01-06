@@ -26,8 +26,8 @@ html, body {
     width: 20%;
     align-items: center;
 }
-.menu{
-    margin-left: 10px;
+.h-Menu{
+    margin-left: 20px;
 }
 .menu img:hover{
     background-color: lightgrey;
@@ -226,7 +226,6 @@ html, body {
     padding: 20px 0;
     color: #fff;
     bottom: auto;
-
 }
 .firstFoot a:hover{
     border-bottom: 1px solid black;
