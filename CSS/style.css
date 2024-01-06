@@ -26,13 +26,13 @@ html, body {
     width: 20%;
     align-items: center;
 }
-.h-Menu{
-    margin-left: 20px;
-}
 .menu img:hover{
     background-color: lightgrey;
     padding: 3px;
     border-radius: 50%;
+}
+.menu img {
+    margin-left: 5px;
 }
 .logo-container {
     display: flex;
@@ -225,7 +225,7 @@ html, body {
     width: 100%; 
     padding: 20px 0;
     color: #fff;
-    bottom: auto;
+    bottom: 0;
 }
 .firstFoot a:hover{
     border-bottom: 1px solid black;
