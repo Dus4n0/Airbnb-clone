@@ -6,10 +6,11 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-  } 
+  }  
+  
  main{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
  }
 .navbar{
     justify-content: space-between;
@@ -138,25 +139,28 @@ html, body {
 .sort a:hover{
     color: black;
 }
-
 .icon-3 img{
     margin-left: 8px;
+    width: 20%;
 }
 
 .icon-4 img{
     margin-left: 7px;
+    width: 30%;
 }
 /*CONTAINER*/
 
 .container {
     margin: 0;
     padding: 0;
-    display: flex;
+    display: flex; 
     justify-content: center;
     flex-direction: row;
+    height: 20%;
 }
-.container img{
+.container img{ 
     border-radius: 5%;
+    width: 100%;
 }
 .container a{
     padding: 0;
@@ -168,42 +172,14 @@ html, body {
     margin-left: 30px;
     margin-top: 50px;
 }
-.container .post-1 h4{
+.container  h4{
     font-size: 20px;
 }
-.container .post-2 h4{
-    font-size: 20px;
-}.container .post-3 h4{
-    font-size: 20px;
-}.container .post-4 h4{
-    font-size: 20px;
-}
-.container .post-1 p{
+.container p{
     font-size: 15px;
     color: rgb(104, 104, 104);
 }
-.container .post-2 p{
-    font-size: 15px;
-    color: rgb(104, 104, 104);
-}
-.container .post-3 p{
-    font-size: 15px;
-    color: rgb(104, 104, 104);
-}
-.container .post-4 p{
-    font-size: 15px;
-    color: rgb(104, 104, 104);
-}
-.container .post-1 h3{
-    font-size: 19px;
-}
-.container .post-2 h3{
-    font-size: 19px;
-}
-.container .post-3 h3{
-    font-size: 19px;
-}
-.container .post-4 h3{
+.container h3{
     font-size: 19px;
 }
 
@@ -217,7 +193,7 @@ html, body {
     background-color: rgb(224, 224, 224);
     border-top: 1px solid gray;
     border-right: 0;
-    height: 20px;
+    height: 100px;
     width: 100%; 
     padding: 20px 0;
     color: #fff;
